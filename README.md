@@ -1,4 +1,4 @@
-Simple example for some Nixpkgs behaviour that's confusing me.
+Simple example for some Nixpkgs behaviour that was confusing me, and has now been resolved at <https://discourse.nixos.org/t/python-packageoverrides-not-overriding-as-expected/56634>.
 
 I'd expect `nix-build` run in this repository to successfully build a basic
 Python module, but instead it produces an error:
